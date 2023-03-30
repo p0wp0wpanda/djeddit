@@ -22,3 +22,6 @@ htmlcov/
 
 # Environments 
 venv_drf
+
+# collectstatic folder
+staticfiles/
