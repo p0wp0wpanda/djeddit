@@ -1,0 +1,24 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+media
+
+# Backup files # 
+*.bak 
+
+# Python # 
+*.py[cod] 
+*$py.class 
+
+# Unit test / coverage reports 
+htmlcov/ 
+.coverage 
+.coverage.* 
+
+# pyenv 
+.python-version
+
+# Environments 
+venv_drf
