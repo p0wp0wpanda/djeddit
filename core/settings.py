@@ -142,6 +142,9 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://dejeddit-frontend.vercel.app",
+    "https://djeddit-p0wp0wpanda.vercel.app",
+    "https://djeddit-git-main-p0wp0wpanda.vercel.app",
+    "https://djeddit-git-dev-p0wp0wpanda.vercel.app",
 ]
 
 # Update database configuration from $DATABASE_URL.
