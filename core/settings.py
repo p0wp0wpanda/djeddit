@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-n+c3gc13ul&pv+
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['web-production-240e.up.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['web-production-240e.up.railway.app', 'web-development-927f.up.railway.app', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -156,4 +156,4 @@ DATABASES['default'].update(db_from_env)
 # https://pypi.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-240e.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-240e.up.railway.app', 'https://web-development-927f.up.railway.app/']
